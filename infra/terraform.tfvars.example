@@ -1,0 +1,10 @@
+# Copia este archivo como terraform.tfvars y cambia los valores.
+# terraform.tfvars NO se sube a GitHub (esta en .gitignore).
+
+# Tu IP publica con /32 (obtenla con: (Invoke-RestMethod https://checkip.amazonaws.com).Trim())
+my_ip_cidr = "TU.IP.AQUI/32"
+
+# Repo publico:
+repo_url = "https://github.com/FernandoCossio/iac-asistencia.git"
+# Repo privado (token de solo lectura):
+# repo_url = "https://TU_TOKEN@github.com/FernandoCossio/iac-asistencia.git"
